@@ -1,4 +1,5 @@
-r = int(input("Enter radius: "))
-pi = 3.1416
-A = pi * (r**2)
-print(A)
+def area_of_circle(r):
+    pi = 3.14159265
+    A = pi * (r**2)
+    return A
+print(area_of_circle(3))
