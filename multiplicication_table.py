@@ -1,3 +1,5 @@
+import pandas
+
 def multiplication_table(start, stop):
     # Complete the outer loop range
     for x in range(start, stop+1): 
@@ -11,5 +13,5 @@ def multiplication_table(start, stop):
         print()
 
 
-multiplication_table(1, 3)
+multiplication_table(1, 10)
 # Should print the multiplication table shown above
