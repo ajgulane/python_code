@@ -1,19 +1,16 @@
-from array import *
-
 arr = []
+def average(arr):
+    getArr()
+    total = sum(arr)
+    average = total/len(arr)
+    print("The average is ", average )
 
-def average(score):
-    total = sum(score)
-    average = total/len(score)
-    print("The Average of the Array is: ",average)
+def getArr():
+    n = int(input("Enter number of Array: "))
 
-def getArray(n):
-    for i in range(n):
-        x = int(input("Enter Value if Array: "))
+    for i in  range(n):
+        x = float(input("Enter Value: "))
         arr.append(x)
-
-getArray(int(input("Enter Length of Array: ")))
-
 average(arr)
 
-
+    
