@@ -1,4 +1,8 @@
-var = "Palawan State University"
-v = (var[6], var[1:4])
-print(v)
-print(type(v))
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")

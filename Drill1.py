@@ -38,4 +38,4 @@ while True:
         break
 
     else:
-        print("Invalid choice. Please choose a valid option (1/2/3/4)")
+        print("Invalid choice. Please choose a valid option 1,2,3,4")
