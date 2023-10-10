@@ -20,19 +20,19 @@ while True:
         current = float(input("Enter current: "))
         resistance = float(input("Enter resistance: "))
         voltage = calculate_voltage(current, resistance)
-        print(f"Voltage is {voltage}")
+        print(f"Voltage is {voltage} V")
 
     elif choice == '2':
         voltage = float(input("Enter voltage: "))
         resistance = float(input("Enter resistance: "))
         current = calculate_current(voltage, resistance)
-        print(f"Current is {current}")
+        print(f"Current is {current} I")
 
     elif choice == '3':
         voltage = float(input("Enter voltage: "))
         current = float(input("Enter current: "))
         resistance = calculate_resistance(voltage, current)
-        print(f"Resistance is {resistance}")
+        print(f"Resistance is {resistance} ohms")
 
     elif choice == '4':
         break
